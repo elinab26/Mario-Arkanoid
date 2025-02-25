@@ -10,10 +10,10 @@ An Arkanoid game with the design of the Mario games programmed in Java.
 
 ## How To Run The Game
 - Make sure you have JDK 17 or higher installed
-- Clone the repository with the command ```git clone https://github.com/elinab26/Mario-Arkanoid``` 
+- Clone the repository with the command `git clone https://github.com/elinab26/Mario-Arkanoid`
 - Open the directory `Mario-Arkanoid` in your terminal
-- Compile the project with the next commande: ```javac -cp "biuoop-1.4.jar:src" -d bin src/**/*.java src/Sprites/Backgrounds/*.java src/ArkanoidGame.java```
-- And run with ```java -cp "biuoop-1.4.jar:bin" ArkanoidGame```
+- Compile the project with the next commande: `javac -cp "biuoop-1.4.jar:src" -d bin src/**/*.java src/Sprites/Backgrounds/*.java src/ArkanoidGame.java`
+- And run with `java -cp "biuoop-1.4.jar:bin" ArkanoidGame`
 - Now the game is running, use the arrows to move the paddle.
 - To open the Pause Menu, press `p`
 
@@ -25,7 +25,7 @@ An Arkanoid game with the design of the Mario games programmed in Java.
 ![Game Over Screen](images/Game-Over.png)
 
 ## Project Structure
-├── Mario Arkanoid.iml
+```├── Mario Arkanoid.iml
 ├── biuoop-1.4.jar
 └── src
     ├── Animations
@@ -69,4 +69,4 @@ An Arkanoid game with the design of the Mario games programmed in Java.
         ├── ScoreIndicator.java
         ├── Sprite.java
         ├── SpriteCollection.java
-        └── Velocity.java
+        └── Velocity.java```
