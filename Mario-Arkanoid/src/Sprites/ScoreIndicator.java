@@ -34,7 +34,7 @@ public class ScoreIndicator implements Sprite {
     @Override
     public String toString() {
         return "Score: " + score.getValue()
-                + "Level Name: " + levelInformation.levelName();
+                + "  Level Name: " + levelInformation.levelName();
     }
 
     /**
